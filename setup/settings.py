@@ -121,6 +121,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
+STARICFILES_DIR = [
+    os.path.jhoin(BASE_DIR, 'setup/static') #acessando a pasta raiz 
+
+]
+STATI_ROOT = 
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
